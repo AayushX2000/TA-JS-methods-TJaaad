@@ -1,15 +1,28 @@
 // NOTE: You can not use reduce methods to solve this exercise
 
 function countAllPeople() {
+  
   // your code goes here
+ let sum=0;
+ for(let i =0;i<got.length;i++){
+  sum=sum+got[i].name
+ }
 }
 
-function peopleByHouses() {
+function peopleByHouses(got) {
   // your code goes here
+  for(let i=0;i<got.houses[i].length;i++){
+    return got.houses[i].name=got.houses[i].people.length;
+
+  }
+
+
+
 }
 
-function everyone() {
+function everyone(got) {
   // your code goes here
+  
 }
 
 function nameWithS() {
