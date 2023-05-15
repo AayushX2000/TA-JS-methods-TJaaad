@@ -2,10 +2,20 @@
 
 function countAllPeople() {
   // your code goes here
+got.houses.reduce((acc,cv)=>{
+   return acc+cv.people.length
+},0)
+
 }
 
 function peopleByHouses() {
   // your code goes here
+  
+  got.houses.reduce((acc,cv)=>{
+   acc[cv.name]=cv.people.length
+
+ },{})
+ 
 }
 
 function everyone() {
