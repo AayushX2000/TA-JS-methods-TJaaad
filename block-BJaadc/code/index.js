@@ -6,8 +6,8 @@ let message = 'If you are still thinking the answer is no!';
 
 // Log the last character of message using length like `The last character of [message] is [character]`
 
-// Log the index of word "you" in message
-
+// Log the index of word "y in message m
+message.indexOf("you")
 // Log the index of word "still" in message
 
 // Log the index of word "answers" in message
