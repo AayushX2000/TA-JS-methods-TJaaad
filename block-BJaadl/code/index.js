@@ -41,6 +41,7 @@ let numbers = [6, 12, 1, 18, 13, 16, 2, 1, 8, 10];
 
 //- Write a function averageNumbers that receives an array of numbers and calculate the average of the numbers
 
+
 let strings = [
   'seat',
   'correspond',
