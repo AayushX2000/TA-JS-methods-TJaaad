@@ -6,7 +6,7 @@ var strings = ['This', 'is', 'a', 'collection', 'of', 'words'];
 NOTE:
 While using methods like push, pop, sort etc it mutates the original array.
 
-Clone the array before using sort method: [...arr]
+Clone the array before using sort meathod: [...arr]a
 
 */
 
