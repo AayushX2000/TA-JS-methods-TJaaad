@@ -29,7 +29,7 @@ Example:
      let houseName = 'Starks';
      houseName.charAt(0); // "S"
      ```
-   - `charAt` accepts a index (number data type) and return the character on that index in the string.
+   - `charAt` accepts a indexs (number data type) and return the character on that index in the string.
 
 2. `toUpperCase`
 3. `toLowerCase`
