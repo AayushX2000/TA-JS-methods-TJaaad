@@ -151,7 +151,7 @@ const grades = [
   Create a function named isGradeB which accepts:
     - an object
     - returns true or false based on the `grade` property in the object is greater than 8 and less than or equal to 12 or not
-  
+  3
   EXAMPLE:
     console.log(isGradeB(grade[0])); // true
     console.log(isGradeB(grade[1])); // true
