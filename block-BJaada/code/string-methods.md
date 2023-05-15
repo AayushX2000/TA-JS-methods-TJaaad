@@ -34,7 +34,7 @@ Example:
 2. `toUpperCase`
 3. `toLowerCase`
 4. `trim`
-5. `trimEnd`
+5. `trimEnd`s .
 6. `trimStart`
 7. `concat`
 8. `endsWith`
