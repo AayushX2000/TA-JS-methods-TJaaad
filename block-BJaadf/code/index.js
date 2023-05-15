@@ -5,7 +5,7 @@ let fruits = ['Banana', 'Orange', 'Apple', 'Mango'];
 // Remove the last element from fruits array
 
 // Log the current length of fruits array
-
+a
 // Remove the first element from fruits and log the value of fruits (use delete arr[0])
 
 // Log the element on index 0 and 1
