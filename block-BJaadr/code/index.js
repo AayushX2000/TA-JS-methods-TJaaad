@@ -12,7 +12,8 @@ function peopleByHouses() {
   // your code goes here
   
   got.houses.reduce((acc,cv)=>{
-   acc[cv.name]=cv.people.length
+   acc[cv.name]=cv.people.length;
+   return acc
 
  },{})
  
@@ -20,18 +21,38 @@ function peopleByHouses() {
 
 function everyone() {
   // your code goes here
+  got.houses.reduce((acc,cv)=>{
+   acc= acc.concat(cv.people.map((p)=>p.name))
+     return acc
+  
+  },[])
 }
 
 function nameWithS() {
   // your code goes here
+  got.houses.reduce((acc,cv)=>{
+    acc= acc.concat(cv.people.map((p)=>p.name).filter((name=>name.toLowerCase().includes("s"))))
+      return acc
+   
+   },[])
 }
 
 function nameWithA() {
   // your code goes here
+  got.houses.reduce((acc,cv)=>{
+    acc= acc.concat(cv.people.map((p)=>p.name).filter((name=>name.toLowerCase().includes("a"))))
+      return acc
+   
+   },[])
 }
 
 function surnameWithS() {
   // your code goes here
+  got.houses.reduce((acc,cv)=>{
+    acc= acc.concat(cv.people.map((p)=>p.name).filter((name=>name.split(" ")[1].toLowerCase().includes("s"))))
+      return acc
+   
+   },[])
 }
 
 function surnameWithA() {
@@ -39,6 +60,11 @@ function surnameWithA() {
 }
 
 function peopleNameOfAllHouses() {
+  got.houses.reduce((acc,cv)=>{
+    acc[cv.name]=cv.people.map((p)=>p.name)
+    return acc
+ },[])
+ 
   // your code goes here
 }
 
